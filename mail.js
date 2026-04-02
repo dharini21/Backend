@@ -72,7 +72,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: "http://localhost:5173" // change after deployment
+  origin: "https://sridharini.netlify.app/" // change after deployment
 }));
 app.use(express.json());
 
