@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "nodemon mail.js",
+    "dev": "nodemon mail.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3",
+    "node": "^25.9.0",
+    "nodemailer": "^8.0.4",
+    "nodemon": "^3.1.14"
+  }
+}
