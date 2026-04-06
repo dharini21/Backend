@@ -93,6 +93,10 @@ transporter.verify((error, success) => {
     console.log("✅ Email server is ready");
   }
 });
+//for testing
+
+app.get("/health", (req, res) => res.send("OK"))
+
 
 // Route
 app.post("/send-email", async (req, res) => {
